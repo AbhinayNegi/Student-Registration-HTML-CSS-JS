@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-section header-container">
+        <h1 class="main-heading">Student volunteer program registration</h1>
+        <p class="desc-para">
+          Student may now register themselves to the various volunteering
+          program through this system. Students can also see how many students
+          have resigter so far. This system also allows students to remove
+          themselves from the registration using the delete buttton next to
+          their name and details and edit their existing details using edit
+          button.
+        </p>
+      </header>
+    <div class="form-container">
+      
+
+      <section class="form-section">
+        <form>
+          <label for="name">Name</label>
+          <input type="text" name="studentName" id="name" required />
+
+          <label for="studentId">Student ID</label>
+          <input type="number" name="stuId" id="studentId" required />
+
+          <label for="email">Email</label>
+          <input type="email" name="stuEmail" id="email" required />
+
+          <label for="number">Contact number</label>
+          <input type="tel" name="stuNumber" id="number" required />
+
+          <input type="submit" value="Register" name="registerBtn" />
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

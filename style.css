@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: "Outfit", sans-serif;
+    color: wheat;
+}
+
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+body{
+    font-size: 2rem;
+}
