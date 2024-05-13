@@ -80,3 +80,31 @@ hr {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+.data-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+    color: wheat;
+}
+
+.student-row {
+    background-color: rgb(90, 88, 88);
+    width: 50%;
+    height: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.student-row > p{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    word-spacing: 2rem;
+}
