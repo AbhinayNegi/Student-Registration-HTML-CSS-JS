@@ -57,4 +57,26 @@ input {
     justify-content: center;
     /* If you comment below line why does this makes input elements width spread out far */
     align-items: center;
+    line-height: 5rem;
+}
+
+label {
+    font-size: 2rem;
+}
+
+input {
+    font-size: 2rem;
+    height: 3rem;
+    max-width: 20rem;
+}
+
+#submitBtn {
+    color: black;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
