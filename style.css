@@ -103,8 +103,19 @@ h2{
 }
 
 .student-row > p{
+    display: inline-block;
     font-size: 2rem;
     text-align: center;
     margin-top: 1rem;
     word-spacing: 2rem;
+    margin-left: 2rem;
+}
+
+i {
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+i:hover {
+    cursor: pointer;
 }
