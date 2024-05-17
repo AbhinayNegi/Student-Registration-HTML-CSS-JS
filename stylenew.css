@@ -68,4 +68,42 @@ input {
     background-color: green;
     color: white;
     width: 10rem;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    font-weight: 500;
+}
+
+th, td {
+    padding: .5rem;
+    text-align: center;
+    border: 2px solid purple;
+}
+
+th {
+    color: green;
+}
+
+tbody {
+    height: 3rem;
+    overflow-y: auto;
+}
+
+i {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+#delete {
+    color: red;
+}
+
+#edit {
+    color: orange;
 }
