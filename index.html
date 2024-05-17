@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Student Registration</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylenew.css" />
     <script src="script.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,25 +13,24 @@
       href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/ada5541440.js" crossorigin="anonymous"></script>
-
+    <script
+      src="https://kit.fontawesome.com/ada5541440.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="header-section header-container">
-        <h1 class="main-heading">Student volunteer program registration</h1>
-        <p class="desc-para">
-          Student may now register themselves to the various volunteering
-          program through this system. Students can also see how many students
-          have resigter so far. This system also allows students to remove
-          themselves from the registration using the delete buttton next to
-          their name and details and edit their existing details using edit
-          button.
-        </p>
-      </header>
-      
+      <h1 class="main-heading">Student volunteer program registration</h1>
+      <p class="desc-para">
+        Student can fill out this form and register themselves for the various
+        volunteering programs.
+      </p>
+    </header>
 
+    <main>
       <section class="form-section">
-        <form class="form-container">
+        <h2>Enter your details</h2>
+        <form id="form" class="form-container">
           <label for="name">Name</label>
           <input type="text" name="studentName" id="name" required />
 
@@ -44,25 +43,14 @@
           <label for="number">Contact number</label>
           <input type="tel" name="stuNumber" id="number" required />
 
-          <input type="submit" value="Register" name="registerBtn" id="submitBtn"/>
+          <input
+            type="submit"
+            value="Register"
+            name="registerBtn"
+            id="submitBtn"
+          />
         </form>
       </section>
-
-      <hr>
-
-      <section class="data-section data-section-container">
-        <h2>Number of students registered</h2>
-        <div class="student-row">
-          <p>1. Abhinay negia394@gmail.com 7899092020</p>
-          <i class="fa-solid fa-trash"></i>
-          <i class="fa-solid fa-pen-to-square"></i>
-        </div>
-
-        <div class="student-row">
-          <p>2. Rohan negia394@gmail.com 7899092020</p>
-          <i class="fa-solid fa-trash"></i>
-          <i class="fa-solid fa-pen-to-square"></i>
-        </div>
-      </section>
+    </main>
   </body>
 </html>

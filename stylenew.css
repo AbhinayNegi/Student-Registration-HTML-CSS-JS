@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    font-size: 16px;
+}
+
+.header-section {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.main-heading {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.desc-para {
+    font-weight: 350;
+    width: 70%;
+    /* Marking the paragraph to be in the center of the screen */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+section {
+    border: 2px solid rgb(52, 75, 100);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+label {
+    font-weight: 500;
+    color: rgb(0, 128, 119);
+}
+
+input {
+    height: 2rem;
+    font-size: 1rem;
+    padding-left: .5rem;
+}
+
+#submitBtn {
+    font-size: 1.2rem;
+    background-color: green;
+    color: white;
+    width: 10rem;
+}
