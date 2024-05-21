@@ -50,11 +50,12 @@ function addStudentRow(studentId, studentName, email, number) {
     setTimeout(() => {
         document.getElementById("data-table").classList.remove("table-glow");
     }, 2000); // Remove glow effect after 2 seconds
-
+    displayStudents();
     // Scroll to the added student
     let addedRow = tableBody.lastElementChild;
     console.log(addedRow);
     addedRow.scrollIntoView({ behavior: "smooth"});
+    displayStudents();
 }
 
 function displayStudents() {
