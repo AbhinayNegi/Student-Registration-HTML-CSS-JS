@@ -100,10 +100,10 @@ i {
     cursor: pointer;
 }
 
-#delete {
+.delete {
     color: red;
 }
 
-#edit {
+.edit {
     color: orange;
 }
