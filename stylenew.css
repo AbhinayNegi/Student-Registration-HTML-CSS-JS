@@ -107,3 +107,24 @@ i {
 .edit {
     color: orange;
 }
+
+/* This class will be added to table using JS to give a glow effect around the table */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px #d81597;
+    }
+    50% {
+        box-shadow: 0 0 20px #d81597;
+    }
+    100% {
+        box-shadow: 0 0 5px #d81597;
+    }
+}
+
+.table-glow {
+    animation: glow 2s;
+}
+
+.form-glow {
+    animation: glow 2s;
+}

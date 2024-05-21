@@ -44,6 +44,17 @@ function addStudentRow(studentId, studentName, email, number) {
     // Add the new student to the array and save it to the local storage
     students.push({ studentId, studentName, email, number });
     localStorage.setItem("students", JSON.stringify(students));
+
+    // Adding a glow effect around the table border
+    document.getElementById("data-table").classList.add("table-glow");
+    setTimeout(() => {
+        document.getElementById("data-table").classList.remove("table-glow");
+    }, 2000); // Remove glow effect after 2 seconds
+
+    // Scroll to the added student
+    let addedRow = tableBody.lastElementChild;
+    console.log(addedRow);
+    addedRow.scrollIntoView({ behavior: "smooth"});
 }
 
 function displayStudents() {
@@ -100,6 +111,9 @@ function editStudent(index) {
 
     form["registerBtn"].value = "Update";
     form.editingIndex = index;
+
+    // Scroll to the form for editing
+    formSection.scrollIntoView({ behavior: "smooth"});
 }
 
 function updateRow(studentId, studentName, email, number) {
